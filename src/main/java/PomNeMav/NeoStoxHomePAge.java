@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class NeoStoxHomePAge {
-	
+	//branch1 commit for git
 	@FindBy(xpath = "(//a[@class='btn btn-sm neobutton'])[7]") private WebElement okButton;
 	@FindBy(xpath = "(//a[text()='Close'])[5]") private WebElement closeButton;
 	@FindBy(xpath = "(//span[text()='Hi Komal Dhage'])[1]") private WebElement uName;
